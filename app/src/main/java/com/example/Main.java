@@ -18,6 +18,10 @@ public class Main {
         float maiorValor = 0f;
         float menorValor = 0f;
 
+        int quantidadeMedia = 0;
+        float mediaTotal = 0f;
+        float media = 0f;
+
         int quantidadeCompras = 0;
         int quantidadeCinquenta = 0;
 
@@ -66,7 +70,6 @@ public class Main {
 
             } while (inicio == 1);
 
-            float media = (menorValor + maiorValor) / 2;
 
             System.out.println("RELATÓRIO DE COMPRAS");
             System.out.println("\nQuantidade de pedidos: " + quantidadeCompras);
